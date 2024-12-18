@@ -1,13 +1,12 @@
 <?php
 
-$number = 5;
-$divisor = 2;
+$n1 = $_GET["a"];
+$n2 =2;
 
-if ($number % $divisor == 0){
-    echo "<h1>
-    numero par</h1>";
-}
-    else {
-      echo  "<h1>numero impar</h1>";
-    };
-?>
+$ip = ($n1 % $n2) !== 0 ? "numero impar" : "numero par";   
+
+echo "o numero é $ip";
+
+
+
+/*calculara se o numero é impar ou par  */
