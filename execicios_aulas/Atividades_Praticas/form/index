@@ -1,0 +1,55 @@
+  <!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>formulario</title>
+</head>
+<body>
+
+    <div>
+        <h1><b>FORMULARIO DE INSCRIÇÃO</b></h1>
+    <form method="get" action="dados/dadoscoletados.php">
+        <h3>NOME COMPLETO</h3>
+        <input type="text" name="name">
+        <h3>DATA DE NASCIMENTO</h3>
+        <input type="date" name="data">
+        <h3>TELEFONE</h3>
+        <input type="tel" name="tel">
+        <h3>SEXO</h3>
+        <select name="sexo">
+            <option value="mas"> MASCULINO</option>
+            <option value="fem">FEMININO</option>
+            <option value="sem" selected>NÃO INFORMAR</option>
+        </select>
+        <input type="submit" value="enviar">
+        </form>  
+    </div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+      
+-->
